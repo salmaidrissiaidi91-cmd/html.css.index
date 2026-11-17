@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>my web site</title>
+  </head>
+  <style>
+    body {
+      background-color: #0d0d0d;
+      color: #131313;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #100a0a;
+    }
+    nav a {
+      color: #16ab40;
+      text-decoration: none;
+      margin-left: 15px;
+      font-weight: bold;
+    }
+    .image-container {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+      color: #0b5d0b;
+      letter-spacing: 1px;
+    }
+    .coutdown-container {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .box {
+      background-color: rgb(7, 74, 7);
+      border: 1px solid rgb(161, 25, 25);
+      backdrop-filter: blur(15px);
+      padding: 30px;
+      min-width: 100px;
+      box-shadow: 0 4px 6px rgba(19, 5, 13, 0.1);
+    }
+    .time-label {
+      color: white;
+    }
+  </style>
+  <body class="home-page">
+    <div class="image-container">
+      <img
+        src="imag/image copy 2.png"
+        alt="image2.png"
+        width="250"
+        height="250"
+      />
+      <img src="imag/image.png" alt="image3.png" width="250" height="250" />
+    </div>
+    <hr />
+    <h1>FESTIVAL L'OLIVE AU COEUR</h1>
+    <h2>Accueil</h2>
+    <hr />
+    <a href="index.html">Accueil</a>
+    <a href="programme.html">programme</a>
+    <a href="inscription.html">Inscription</a>
+    <a href="contact.html">Contact</a>
+
+    <hr />
+    <div class="coutdown-container">
+      <div class="time-box">
+        <div class="box">13</div>
+        <h2 class="time-label">Jours</h2>
+      </div>
+
+      <div class="time-box">
+        <div>
+          <div class="box">08</div>
+        </div>
+        <h2 class="time-label">Heures</h2>
+      </div>
+      <div class="time-box">
+        <div class="box">45</div>
+        <h2 class="time-label">Minutes</h2>
+      </div>
+
+      <div class="time-box">
+        <div class="box">30</div>
+        <h2 class="time-label">Secondes</h2>
+      </div>
+    </div>
+  </body>
+</html>
